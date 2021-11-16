@@ -6,23 +6,18 @@ h2 {
     display: block;
     margin: 0;
     font: bold;
+    
     color: dimgray;
     text-align: center;
 }
 
 img {
-    /* width: 250px;
-    height: 250px; */
-    max-width: 100%;  
-    height: auto; 
+    width: 250px;
+    height: 250px;  
+    padding: 15px; 
     object-position: center; 
 }
-div {  
-width: auto;  
-text-align: center;  
-padding: 15px;  
-border: 3px solid red;  
-}  
+
 p {
     font-size: 18px;
     font-family: helvetica;
@@ -32,8 +27,10 @@ p {
 
 #cool-text{
     color: powderBlue;
+    font-size: 25px;
+    text-align: center;
  }
- 
+
 element 
 
 id
