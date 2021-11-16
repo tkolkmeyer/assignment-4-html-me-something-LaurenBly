@@ -6,14 +6,34 @@ h2 {
     display: block;
     margin: 0;
     font: bold;
-    
+    color: dimgray;
+    text-align: center;
 }
 
 img {
-    width: 250px;
-    height: 250px;
+    /* width: 250px;
+    height: 250px; */
+    max-width: 100%;  
+    height: auto; 
+    object-position: center; 
 }
+div {  
+width: auto;  
+text-align: center;  
+padding: 15px;  
+border: 3px solid red;  
+}  
+p {
+    font-size: 18px;
+    font-family: helvetica;
+    color: LightSeaGreen;
+    text-align: center;
+} 
 
+#cool-text{
+    color: powderBlue;
+ }
+ 
 element 
 
 id
