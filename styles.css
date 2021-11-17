@@ -3,6 +3,11 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
+main {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
 .nav_bar {
     background: rgba(255,255,255,0.9);
     position: fixed;
@@ -41,13 +46,6 @@ body {
     background-color: rgba(137, 43, 226, 0.192);
 }
 
-.border {
-    display: inline-block;
-    position: relative;
-    padding: calc(var(--space-16) * 2);
-    border-radius: var(--border-radius-4);
-    margin-top: 50px;
-}
 
 #space {
     margin-top: 70px;
@@ -57,7 +55,10 @@ body {
 
 a {
     background-color: transparent;
-    display: inline-block;
+    /* display: inline-block; */
+    display: fixed;
+    margin-top: 5000px;
+    /* top: -200px; */
 }
 
 a:-webkit-any-link {
@@ -65,6 +66,7 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
+
 nav ul li {
     display: inline-block;
     margin-right: 1em;
@@ -94,6 +96,8 @@ h2 {
     font: bold;
     color: dimgray;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -110,7 +114,7 @@ section {
     position:relative; 
     margin: 0; 
     padding: 0; 
-    display: inline-block;
+    display: block;
     margin-top: 50px; /* whatever offset this needs to be */
 }
 p {
@@ -119,17 +123,9 @@ p {
     color: LightSeaGreen;
     text-align: center;
     margin: 0;
-} 
-.funParagraph {
+    padding: 0;
     display: block;
-    margin: auto;
-    font-size:18px;
-    text-align: center;
-    font-family: helvetica;
-    font-weight: bold;
-    background-color: transparent;
-    color: rgb(141, 22, 22);
-}
+} 
 
 #testP{
     color: rgb(66, 176, 190);
@@ -147,3 +143,27 @@ p {
  }
 
  
+.a_container {
+    padding: 0 50px;
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+.border {
+    display: inline-block;
+    position: relative;
+    padding: calc(var(--space-16) * 2);
+    border-radius: var(--border-radius-4);
+    margin-top: 50px;
+}
+.funParagraph {
+    display: block;
+    margin: auto;
+    font-size:18px;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: bold;
+    background-color: transparent;
+    color: rgb(141, 22, 22);
+}
