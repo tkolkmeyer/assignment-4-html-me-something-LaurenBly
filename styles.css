@@ -9,16 +9,12 @@ main {
     margin: 0 auto;
 }
 
-
-
 container {
     margin: 0 auto;
     margin-inline-end: auto;
     margin-block-end: auto;
     max-width: 1024px;
 }
-
-
 
 div {
     display: block;
@@ -36,11 +32,10 @@ body {
     margin: 8px;
     background-color: rgba(137, 43, 226, 0.192);
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding-top: 44px;
     padding-bottom: 25px;
 }
-
 
 #space {
     margin-top: 70px;
@@ -67,10 +62,12 @@ nav ul li {
     margin-right: 1em;
     font-size: 0.75em;
 }
+
 li {
     text-align: -webkit-match-parent;
     font-size: 18px;
 }
+
 nav ul {
     text-align: center;
     padding: 0;
@@ -97,21 +94,24 @@ h2 {
 
 img {
     display: block;
-    max-width:230px;
-    max-height:250px;
+    max-width: 230px;
+    max-height: 250px;
     width: auto;
     height: auto;
-    border: 0;  
-    padding: 15px; 
+    border: 0;
+    padding: 15px;
     margin: auto;
 }
+
 section {
-    position:relative; 
-    margin: 0; 
-    padding: 0; 
+    position: relative;
+    margin: 0;
+    padding: 0;
     display: block;
-    margin-top: 50px; /* whatever offset this needs to be */
+    margin-top: 50px;
+    /* whatever offset this needs to be */
 }
+
 p {
     font-size: 18px;
     font-family: helvetica;
@@ -120,31 +120,33 @@ p {
     margin: 0;
     padding: 0;
     display: block;
-} 
+}
 
-#testP{
+#testP {
     color: green;
     font-size: 25px;
     text-align: center;
- }
+}
 
- #mainHeading {
+#mainHeading {
     color: red;
- }
+}
 
- footer {
-     text-align: left;
-     padding: 3em;
- }
- .nav_bar {
-    background: rgba(255,255,255,0.9);
+footer {
+    text-align: left;
+    padding: 3em;
+}
+
+.nav_bar {
+    background: rgba(255, 255, 255, 0.9);
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
     width: 100%;
-    backdrop-filter: blur(3px); 
+    backdrop-filter: blur(3px);
 }
+
 .nav_container {
     padding: 0 50px;
 }
@@ -156,6 +158,7 @@ p {
     top: -60px;
     visibility: hidden;
 }
+
 .border {
     display: inline-block;
     position: relative;
@@ -163,10 +166,11 @@ p {
     border-radius: var(--border-radius-4);
     margin-top: 50px;
 }
+
 .funParagraph {
     display: block;
     margin: auto;
-    font-size:18px;
+    font-size: 18px;
     text-align: center;
     font-family: helvetica;
     font-weight: bold;
